@@ -62,6 +62,6 @@ $db = new DB('mysql:host=your_host;dbname=your_db', 'your_username', 'your_passw
   $success = $db->update('your_table_name', ['column1' => 'new_value'], 'column2 = value2');
     ```
 
-### Lisans
+# Lisans
 Bu paket açık kaynaklıdır ve MIT Lisansı altında mevcuttur.
   
