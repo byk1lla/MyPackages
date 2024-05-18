@@ -2,16 +2,18 @@
 
 return array (
   'bakim' => true,
-  'title' => 'AkOtomotiv',
-  'PROJECT_NAME' => 'AKOTO',
+  'title' => 'Your_Title',
+  'PROJECT_NAME' => 'Your_Projectname',
   'DB' => 
   array (
-    'host' => 'localhost',
-    'username' => 'root',
-    'name' => 'akotomotive_db',
-    'password' => '',
+    'host' => 'Your_Host',
+    'username' => 'Your_Username',
+    'name' => 'Your_DBName',
+    'password' => 'Your_Password',
   ),
   'mail' => 
   array (
+     "username" => 'Your_Username',
+    "password" => 'Your_App_Password'
   ),
 );
