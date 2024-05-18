@@ -8,8 +8,3 @@ echo "Sunucu Açılıyor...\n";
 
 $phpServer->start();
 
-if (file_exists("packages/helper/settings.php")) {
-    echo "Ayarlar Dosyası Kaydedildi!\n Konumu => packages/helper/settings.php";
-} else {
-    echo "Ayarlar Dosyası Kaydedilemedi.";
-}
