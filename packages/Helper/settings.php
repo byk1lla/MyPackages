@@ -13,6 +13,7 @@ return array (
   ),
   'mail' => 
   array (
-    ''
+     "username" => 'Your_Username',
+    "password" => 'Your_App_Password'
   ),
 );
