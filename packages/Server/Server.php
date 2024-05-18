@@ -19,6 +19,6 @@ Class Server{
 
     public function start(){
 
-        return shell_exec("php -S $this->host:$this->port -t $this->dir");
+        shell_exec("php -S $this->host:$this->port -t $this->dir");
     }
 }

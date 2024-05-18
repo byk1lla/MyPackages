@@ -1,7 +1,10 @@
 <?php
 header('Content-Type: application/json');
 
+global $pid;
 $response = ["success" => false, "message" => ""];
+try{
+
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $bakim = isset($_POST['bakim']) ? true : false;
@@ -41,10 +44,14 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     if (file_put_contents('packages/helper/settings.php', $configContent)) {
         $response["success"] = true;
         $response["message"] = "Configuration saved successfully!";
+        
     } else {
         $response["message"] = "Failed to save configuration.";
     }
 }
-
+}
+catch(Exception $ex){
+    $response["error"] = $ex->getMessage();
+}
 echo json_encode($response);
 ?>
