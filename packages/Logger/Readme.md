@@ -1,4 +1,4 @@
-# DB Paketi
+# Logger Paketi
 
 ### Genel Bakış
 `Logger`  paketi, PHP'de basit bir şekilde log (günlük) işlemleri yapmanızı sağlar. Hataları ve özel mesajları dosyalara kaydetmeyi destekler.
