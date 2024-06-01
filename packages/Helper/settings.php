@@ -1,19 +1,17 @@
 <?php
 
 return array (
-  'bakim' => true,
-  'title' => 'Your_Title',
-  'PROJECT_NAME' => 'Your_Projectname',
+  'bakim' => false,
+  'title' => 'Link',
+  'PROJECT_NAME' => 'UrlKısaltıcı',
   'DB' => 
   array (
-    'host' => 'Your_Host',
-    'username' => 'Your_Username',
-    'name' => 'Your_DBName',
-    'password' => 'Your_Password',
+    'host' => 'localhost',
+    'username' => 'root',
+    'name' => 'test',
+    'password' => '',
   ),
   'mail' => 
   array (
-     "username" => 'Your_Username',
-    "password" => 'Your_App_Password'
   ),
 );
