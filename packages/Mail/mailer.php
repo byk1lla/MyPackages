@@ -34,7 +34,7 @@ class Mailer {
             $mail->Port = 587;
             $mail->setLanguage("tr");
 
-            $mail->setFrom($this->username, 'AkOtomotiv MSYS');
+            $mail->setFrom($this->username, '');
             $mail->addAddress($to);
             $mail->Subject = $subject;
             $mail->isHTML(true);
